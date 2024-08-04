@@ -24,7 +24,7 @@ export default function Table(){
         col1: title.name,
         col2: title.year,
         imageUrl: title.poster.url,
-        col4: title.description === "" ? "Здесь должно быть описание" : title.description,
+        col4: title.description,
     }));
 
     
